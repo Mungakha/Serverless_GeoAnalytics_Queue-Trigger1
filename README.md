@@ -15,7 +15,7 @@ Serverless_GeoAnalytics_Queue-Trigger1 function has been embedded with a python 
 
 requirements.txt file Contains the list of Python packages used to run the python code integrated in the function.These packages on requirements.txt are automatically installed in visual studio code when running the function locally and on Azure when the function is published in Azure.
 
-Specifically, this function logs onto ESRI Portal, downloads afeature service with a defined feature ID, dissolves feature service on specific columns and computes the polygon centroids. What each line or a collection of lines do is detailed in the code.
+Specifically, this function logs onto ESRI Portal, downloads a feature service with a defined feature ID, dissolves feature service on specific columns and computes the polygon centroids. What each line or a collection of lines do is detailed in the code.
 
 local.settings.json file contains app settings and connection strings used when running locally. This file doesn't get published to Azure but options are given to have it uploaded when publishing Function.
 
