@@ -11,7 +11,7 @@ This function has two queues in use. Check the function bindings in the function
 
 "outqueue1" is the trigger queue. When it receives a message, it starts the function."outqueue2" is the output queue, the functions deposits the very message that triggered it once it has successfully run. The intention is that when "outqueue2" receives the new message it triggers https://github.com/Mungakha/Serverless_GeoAnalytics_Queue-Trigger2
 
-This function has been embedded with a python code running of multiple libraries.
+Serverless_GeoAnalytics_Queue-Trigger1 function has been embedded with a python code running of multiple libraries.
 
 requirements.txt file Contains the list of Python packages used to run the python code integrated in the function.These packages are installed in visual studio code when running the function locally and on Azure when the function is publishe in Azure.
 
